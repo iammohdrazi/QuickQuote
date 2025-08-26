@@ -3,7 +3,7 @@ const authorElement = document.getElementById('author');
 const button = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
 
-const quotesUrl = "https://raw.githubusercontent.com/iammohdrazi/RandomQuoteExtension/refs/heads/main/quotes.json";
+const quotesUrl = "https://raw.githubusercontent.com/iammohdrazi/QuickQuote/refs/heads/main/quotes.json";
 let quotes = [];
 
 async function loadQuotes() {
