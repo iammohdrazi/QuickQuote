@@ -17,12 +17,12 @@
 
 ## Installation
 
-### Chrome / Edge
+### Chrome / Edge / Brave
 
 1. Download or clone this repository to your computer.
-2. Open your browser and go to **Extensions**:
+2. Open your browser and go to the Extensions page:
 
-   * **Chrome:** `chrome://extensions/`
+   * **Chrome/Brave:** `chrome://extensions/`
    * **Edge:** `edge://extensions/`
 3. Enable **Developer Mode** (top-right toggle).
 4. Click **Load unpacked** and select the folder where you saved QuickQuote.
@@ -57,25 +57,9 @@ QuickQuote/
 ├─ popup.css        # Additional styling for loader and buttons
 ├─ manifest.json    # Chrome/Edge/Firefox extension configuration
 ├─ quotes.json      # List of motivational quotes
-└─ icons/           # Extension icons (16px, 48px, 128px)
+├─ icons/           # Extension icons (16px, 48px, 128px)
+└─ images/          # Screenshot images for README
 ```
-
----
-
-## Screenshots / Visual Tutorial
-
-### 1. Chrome / Edge
-
-1. Go to Extensions page (`chrome://extensions/` or `edge://extensions/`)
-2. Enable **Developer Mode**
-3. Click **Load unpacked** and select the folder
-4. Click the QuickQuote icon in the toolbar to see quotes
-
-### 2. Firefox
-
-1. Go to `about:debugging` → This Firefox
-2. Click **Load Temporary Add-on** and select `manifest.json`
-3. Click the extension icon to view quotes
 
 ---
 
@@ -84,6 +68,7 @@ QuickQuote/
 * **Quotes:** Add, remove, or edit quotes in `quotes.json`.
 * **Styling:** Modify colors, fonts, and layout in `style.css` and `popup.css`.
 * **Icons:** Replace icons in the `icons/` folder with your own images.
+* **Screenshots:** Replace images in the `images/` folder for README screenshots.
 
 ---
 
